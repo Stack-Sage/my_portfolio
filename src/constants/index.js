@@ -25,7 +25,9 @@ import {
   threejs,
  listly,
  keetmd,
-  
+  piano,
+  password,
+  intern
 
 } from "../assets";
 
@@ -121,6 +123,7 @@ const experiences = [
     company_name: "Internshalla",
     // icon: starbucks,
     iconBg: "#383E56",
+    icon : intern,
     date: "March 2024 - July 2024",
     points: [
       "Learning Some latest Technologies of Web , like next js and three js ",
@@ -165,10 +168,54 @@ const projects = [
     image: keetmd,
     source_code_link: "https://github.com/Stack-Sage/image-search-dark",
   },
+  // {
+  //   name: "ListLy-v20",
+  //   description:
+  //     "Web application that enables users to List their todo's of the day and perform their task more effectively and be more productive ...",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: listly,
+  //   source_code_link: "https://github.com/Stack-Sage/listly",
+  // },
+  
   {
-    name: "ListLy-v20",
+    name: "Piano - Key Symphony ",
     description:
-      "Web application that enables users to List their todo's of the day and perform their task more effectively and be more productive ...",
+      "A Web piano application , which has over 80 different notes of piano , make you wanna try it and see how good you can play it...",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: piano,
+    source_code_link: "https://github.com/Stack-Sage/",
+  },
+  
+  {
+    name: "Password Generator ",
+    description:
+      "A tool which allows you to generate a strong password and make you feel secure and protected even highly custimized password generator method",
     tags: [
       {
         name: "react",
@@ -179,12 +226,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "Reach-Hooks",
         color: "pink-text-gradient",
       },
     ],
-    image: listly,
-    source_code_link: "https://github.com/Stack-Sage/listly",
+    image: password,
+    source_code_link: "https://github.com/Stack-Sage/",
   },
   
 ];
